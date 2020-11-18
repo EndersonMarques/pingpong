@@ -12,7 +12,7 @@ var bola =
     dirx: -1,
     diry: 1,
     mod: 0,
-    velocidade: 0
+    velocidade: 3
 };
 
 var Player1 = 
@@ -133,5 +133,3 @@ function desenha()
     ctx.fillText("Player 2: " + Player2.pontos, canvas.width - 150, 20);
 
 }
-
-setInterval(desenha, 5);
