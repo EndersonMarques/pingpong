@@ -1,2 +1,0 @@
-# pingpong.github.io
-game
