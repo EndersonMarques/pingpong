@@ -123,7 +123,7 @@ function desenha()
     movePlayer();
     moveBola();
 
-    ctx.fillStyle = "white";
+    ctx.fillStyle = "deeppink";
     ctx.fillRect(Player1.x, Player1.y, Player1.largura, Player1.altura);
     ctx.fillRect(Player2.x, Player2.y, Player2.largura, Player2.altura);
     ctx.fillRect(bola.x, bola.y, bola.largura, bola.altura);
