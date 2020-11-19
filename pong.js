@@ -12,7 +12,7 @@ var bola =
     dirx: -1,
     diry: 1,
     mod: 0,
-    velocidade: 3
+    velocidade: 1
 };
 
 var Player1 = 
