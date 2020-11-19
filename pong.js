@@ -12,7 +12,7 @@ var bola =
     dirx: -1,
     diry: 1,
     mod: 0,
-    velocidade: 1
+    velocidade: 1.5
 };
 
 var Player1 = 
@@ -64,13 +64,13 @@ function moveBola()
     if(bola.y + bola.altura >=  Player1.y && bola.y <= Player1.y + Player1.altura && bola.x <= Player1.x + Player1.largura)
     {
         bola.dirx = 1;
-        bola.mod += 0.2;
+        bola.mod += 0.1;
     }
 
     else if(bola.y + bola.largura >= Player2.y && bola.y <= Player2.altura + Player2.y && bola.x + bola.largura >= Player2.x)
     {
         bola.dirx = -1;
-        bola.mod += 0.2;
+        bola.mod += 0.1;
     }
 
     if(bola.y <= 0)
